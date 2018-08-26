@@ -7,19 +7,16 @@
     "live-server": "live-server",
     "compile:sass": "node-sass-chokidar ./assets/sass/now-ui-kit.scss ./assets/css/now-ui-kit.css -w"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rjquindoza/udemy-nuk.git"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rjquindoza/udemy-nuk/issues"
   },
-
   "homepage": "https://github.com/rjquindoza/udemy-nuk#readme",
   "devDependencies": {
     "live-server": "^1.2.0",

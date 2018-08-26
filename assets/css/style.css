@@ -2,6 +2,16 @@
   background: #F5F5F5;
 }
 
+.image-logo-footer {
+  display: inline;
+  max-width: 25px;
+  margin-right: 5px;
+}
+
+.u-margin-top {
+  margin-top: 5px;
+}
+
 .navbar-brand {
   cursor: pointer;
 }
