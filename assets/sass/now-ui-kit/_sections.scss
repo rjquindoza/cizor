@@ -112,7 +112,7 @@
         @include linear-gradient(rgba($black-color,.20), rgba(224, 23, 3, 0.2));
     }
     &[filter-color="black"]{
-        @include linear-gradient(rgba($black-color,.4), rgba($black-color,.6));
+        @include linear-gradient(rgba($primary-color, .2), rgba($secondary-color, .1));
     }
 }
 

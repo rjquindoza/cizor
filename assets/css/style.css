@@ -2,6 +2,39 @@
   background: #F5F5F5;
 }
 
+.navbar-brand {
+  cursor: pointer;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+#btn--animated {
+  animation: moveInBottom 1.5s ease-out;  
+}
+
+#header-bg {
+  background-image: linear-gradient(
+    to right,
+    rgba(10, 191, 188, .2),
+    rgba(252, 53, 76, .2)
+  )
+}
+
+#heading-secondary {
+  background-image: linear-gradient(
+    to right,
+    rgba(10, 191, 188),
+    rgba(252, 53, 76)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 .navbar .navbar-nav .nav-link:not(.btn) i.fa {
   font-size: 18px;
   position: relative;
@@ -467,12 +500,13 @@
 .brand .h1-seo {
   font-size: 2.8em;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
+  animation: moveInLeft 1.5s ease-out;
 }
 
 .brand .n-logo {
-  max-width: 100px;
-  margin-bottom: 40px;
+  max-width: 150px;
+  margin-bottom: 10px;
 }
 
 .invision-logo {
